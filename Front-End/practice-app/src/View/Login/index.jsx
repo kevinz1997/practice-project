@@ -43,9 +43,9 @@ function Login(props) {
   const classes = useStyles();
   return (
     <Fragment>
-      <Grid container spacing={1}>
+      <Grid container spacing={1} style={{height: '100vh'}}>
         <Grid item lg={6} md={6} className={classes.container}>
-          <img src={launcher} width="95%" alt="launcher" />
+          <img src={launcher} width="100%" alt="launcher" />
         </Grid>
         <Grid item lg={6} md={6}>
           <div className={classes.formContainer}>
